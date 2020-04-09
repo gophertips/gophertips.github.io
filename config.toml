@@ -1,0 +1,4 @@
+baseURL      = "https://gopher.tips"
+languageCode = "pt-br"
+title        = "Gopher Tips"
+theme        = "hugo-flex"
