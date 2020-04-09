@@ -3,15 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gopher.tips/categories/</loc>
+    <loc>https://gopher.tips/tags/concorr%C3%AAncia/</loc>
+    <lastmod>2020-04-09T16:39:13+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gopher.tips/posts/errgroup/</loc>
+    <lastmod>2020-04-09T16:39:13+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://gopher.tips/</loc>
+    <lastmod>2020-04-09T16:39:13+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gopher.tips/posts/</loc>
+    <lastmod>2020-04-09T16:39:13+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://gopher.tips/tags/</loc>
+    <lastmod>2020-04-09T16:39:13+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gopher.tips/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gopher.tips/tags/package/errgroup/</loc>
   </url>
   
 </urlset>
