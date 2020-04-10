@@ -7,4 +7,4 @@ tags: ['concorrência', 'package/errgroup']
 
 {{< youtube Nu0M_yBv9eY >}}
 
-O código exibido no vídeo pode ser encontrando no [GitHub](https://github.com/gophertips/code/tree/master/errgroup/updated).
+O código exibido no vídeo pode ser encontrando no [GitHub](https://github.com/gophertips/code/tree/master/errgroup).
