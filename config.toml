@@ -2,3 +2,19 @@ baseURL      = "https://gopher.tips"
 languageCode = "pt-br"
 title        = "Gopher Tips"
 theme        = "hugo-flex"
+
+[menu]
+  [[menu.nav]]
+  name   = "Posts"
+  url    = "posts/"
+  weight = 1
+
+  [[menu.nav]]
+  name   = "Tags"
+  url    = "tags/"
+  weight = 2
+
+  [[menu.nav]]
+  name   = "RSS"
+  url    = "index.xml"
+  weight = 3
