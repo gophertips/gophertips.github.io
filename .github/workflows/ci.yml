@@ -1,0 +1,46 @@
+name: CI
+on: push
+
+jobs:
+  Test:
+    runs-on: ubuntu-18.04
+
+    container:
+      image: gophertips/ci:2
+
+    steps:
+      - name: Download the source code
+        uses: actions/checkout@v2
+
+      - name: Docker linter
+        run: hadolint misc/docker/Dockerfile
+
+  Deploy:
+    needs: Test
+    runs-on: ubuntu-18.04
+
+    container:
+      image: gophertips/ci:2
+
+    steps:
+      - name: Download the source code
+        uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+
+      - name: Fetch master branch
+        run: git fetch --no-tags --prune --depth=1 origin +refs/heads/master:refs/remotes/origin/master
+
+      - name: Build the static files
+        run: |
+          git worktree add public master
+          hugo
+
+      - name: Deploy
+        if: github.base_ref == 'master'
+        run: |
+          cd public
+          if [ "$(git diff | wc -l)" -ne "0" ]; then
+            git commit -am "Updated at '${date -u +"%Y-%m-%d %T"}'"
+            git push
+          fi
