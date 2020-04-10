@@ -1,0 +1,27 @@
+name: Quality
+on:
+  push:
+    branches:
+      - '*'
+      - '!code'
+      - '!master'
+
+  pull_request:
+    branches:
+      - '*'
+      - '!code'
+      - '!master'
+
+jobs:
+  Linter:
+    runs-on: ubuntu-18.04
+
+    container:
+      image: gophertips/ci:2
+
+    steps:
+      - name: Download the source code
+        uses: actions/checkout@v2
+
+      - name: Docker linter
+        run: hadolint misc/docker/Dockerfile
