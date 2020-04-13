@@ -4,26 +4,31 @@
   
   <url>
     <loc>https://gopher.tips/tags/concorr%C3%AAncia/</loc>
-    <lastmod>2020-04-09T16:39:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gopher.tips/posts/errgroup/</loc>
-    <lastmod>2020-04-09T16:39:13+01:00</lastmod>
+    <lastmod>2020-04-13T22:05:13+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://gopher.tips/</loc>
-    <lastmod>2020-04-09T16:39:13+01:00</lastmod>
+    <lastmod>2020-04-13T22:05:13+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gopher.tips/posts/goroutine-limit/</loc>
+    <lastmod>2020-04-13T22:05:13+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://gopher.tips/posts/</loc>
-    <lastmod>2020-04-09T16:39:13+01:00</lastmod>
+    <lastmod>2020-04-13T22:05:13+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://gopher.tips/tags/</loc>
+    <lastmod>2020-04-13T22:05:13+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gopher.tips/posts/errgroup/</loc>
     <lastmod>2020-04-09T16:39:13+01:00</lastmod>
   </url>
   
