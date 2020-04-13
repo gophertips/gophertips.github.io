@@ -34,9 +34,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GIT }}
         run: |
           cd public
-          if [ "$(git diff | wc -l)" -ne "0" ]; then
+          git add .
+          if [ "$(git diff --cached | wc -l)" -ne "0" ]; then
             git config user.name "GitHub Actions"
             git config user.email "github-actions@users.noreply.github.com"
+            git add .
             git commit -am "Updated at '$(date -u +"%Y-%m-%d %T")'"
             git push
           fi
