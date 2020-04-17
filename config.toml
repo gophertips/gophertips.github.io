@@ -1,4 +1,4 @@
-baseURL      = "https://gopher.tips"
+baseURL      = "https://gopher.tips/"
 languageCode = "pt-br"
 title        = "Gopher Tips"
 theme        = "ink"
