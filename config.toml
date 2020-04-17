@@ -21,12 +21,12 @@ weight = 1
 
 [[menu.main]]
 name   = "Episódios"
-url    = "/posts"
+url    = "/episodios"
 weight = 2
 
 [[menu.main]]
 name   = "Sobre"
-url    = "/about"
+url    = "/sobre"
 weight = 3
 
 [[menu.main]]
