@@ -1,230 +1,119 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html>
 <head>
-  <meta charset="utf-8">
+	<meta name="generator" content="Hugo 0.68.3" />
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Gopher Tips - Go screencasts </title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="alternate" type="application/rss+xml" href="https://gopher.tips/index.xml" title="Gopher Tips" />
+	<meta itemprop="name" content="Gopher Tips">
+<meta itemprop="description" content=""><meta property="og:title" content="Gopher Tips" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://gopher.tips/" />
+<meta property="og:updated_time" content="2020-04-13T22:05:13+01:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Gopher Tips"/>
+<meta name="twitter:description" content=""/>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="https://gopher.tipscss/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://gopher.tipscss/main.css" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-  
-    
-  
-
-
-
-
-
-
-
-
-<meta name="generator" content="Hugo 0.68.3" />
-  <title>Gopher Tips</title>
-  <link rel="canonical" href="/">
-
-
-  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Gopher Tips">
-
-  
-
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-    
-    
-    
-      
-      
-    
-    
-    
-  
-    
-    
-    
-      
-      
-    
-    
-    
-  
-
-  
-
-
-  
-  <link rel="stylesheet" href="/css/base.min.eb3fe86a88ac08d693f6d42508875683971dc28c534781f57f9a7b5ebf0724c5.css" integrity="sha256-6z/oaoisCNaT9tQlCIdWg5cdwoxTR4H1f5p7Xr8HJMU=" crossorigin="anonymous">
-
-
-
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<script src="https://gopher.tipsjs/main.js"></script>
 </head>
 
 <body>
-  <nav class="u-background">
-  <div class="u-wrapper">
-    <ul class="Banner">
-      <li class="Banner-item Banner-item--title">
-        <a class="Banner-link u-clickable" href="/">Gopher Tips</a>
-      </li>
-      
-        <li class="Banner-item">
-          <a class="Banner-link u-clickable" href="/posts/">Posts</a>
-        </li>
-      
-        <li class="Banner-item">
-          <a class="Banner-link u-clickable" href="/tags/">Tags</a>
-        </li>
-      
-        <li class="Banner-item">
-          <a class="Banner-link u-clickable" href="/index.xml">RSS</a>
-        </li>
-      
-    </ul>
-  </div>
-</nav>
-  <main>
-    <div class="u-wrapper">
-      <div class="u-padding">
-        
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="https://gopher.tips">
+				<img src="/images/logo.png" alt="Gopher Tips" />
+			</a>
+		</div>
+	
+	<h1 class="site-title"><a href="https://gopher.tips">Gopher Tips</a></h1>
+	<div class="site-description"><p>Go screencasts</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/gophertips/gophertips.github.io" title="Github"><i data-feather="github"></i></a></li></ul>
+		</nav></div>
 
-  
-
-  
-    <article>
-      <header class="Heading">
-  <h2 class="Heading-title">
-    <a class="Heading-link u-clickable" href="/posts/goroutine-limit/" rel="bookmark">Limitando a criação de Goroutines</a>
-  </h2>
-  
-    <time datetime="2020-04-13T22:05:13&#43;01:00">13 April, 2020</time>
-  
-</header>
-      
-        <p>Limitar a quantidade de Goroutines que podem ser criadas durante um processamento é essencial para garantir a estabilidade e performance de uma aplicação. Nesse episódio vamos ver como resolver esse problema utilizando channels.</p>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/4vp3-UNSnS8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Início</a>
+			</li>
+			
+			<li>
+				<a href="/posts">Episódios</a>
+			</li>
+			
+			<li>
+				<a href="/about">Sobre</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
 </div>
 
-<p>O código exibido no vídeo pode ser encontrando no <a href="https://github.com/gophertips/code/tree/master/goroutine-limit">GitHub</a>.</p>
 
-      
-      
-
-
-  
-
-  
-
-
-
-
-
-  <footer>
-    
-      
-    
-      
-        <ul class="Tags">
-          
-            <li class="Tags-item u-background">
-              <a class="Tags-link u-clickable" href="/tags/concorr%C3%AAncia/" rel="tag">concorrência</a>
-            </li>
-          
-        </ul>
-      
-    
-  </footer>
-
-    </article>
-    
-      <div class="Divider"></div>
-    
-  
-    <article>
-      <header class="Heading">
-  <h2 class="Heading-title">
-    <a class="Heading-link u-clickable" href="/posts/errgroup/" rel="bookmark">Errgroup</a>
-  </h2>
-  
-    <time datetime="2020-04-09T16:39:13&#43;01:00">9 April, 2020</time>
-  
-</header>
-      
-        <p><a href="https://pkg.go.dev/golang.org/x/sync/errgroup?tab=doc">errgroup</a> é um pacote criado pelo Google que facilita o gerênciamento de goroutines. Provê sincronização, propagação de erro e cancelamento automático de contexto.</p>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/Nu0M_yBv9eY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
-<p>O código exibido no vídeo pode ser encontrando no <a href="https://github.com/gophertips/code/tree/master/errgroup">GitHub</a>.</p>
-
-      
-      
+		<div class="recent-posts section">
+			<div class="posts">
+				
+				
+				
+					<div class="post">
+						<div class="post-header">
+							<div class="meta">
+								<div class="date">
+									<span class="day">13</span>
+							<span class="rest">Apr 2020</span>
+								</div>
+							</div>
+							<div class="matter">
+								<h4 class="title small">
+									<a href="/posts/goroutine-limit/">Limitando a criação de Goroutines</a>
+								</h4>
+								<span class="description">
+									
+										Limitar a quantidade de Goroutines que podem ser criadas durante um processamento é essencial para garantir a estabilida...
+									
+								</span>
+							</div>
+						</div>
+					</div>
+				
+					<div class="post">
+						<div class="post-header">
+							<div class="meta">
+								<div class="date">
+									<span class="day">09</span>
+							<span class="rest">Apr 2020</span>
+								</div>
+							</div>
+							<div class="matter">
+								<h4 class="title small">
+									<a href="/posts/errgroup/">Errgroup</a>
+								</h4>
+								<span class="description">
+									
+										Package errgroup provides synchronization, error propagation, and Context cancelation for groups of goroutines working on subtasks of a common task.
+									
+								</span>
+							</div>
+						</div>
+					</div>
+				
+				
 
 
-  
-
-  
-
-
-
-
-
-  <footer>
-    
-      
-    
-      
-        <ul class="Tags">
-          
-            <li class="Tags-item u-background">
-              <a class="Tags-link u-clickable" href="/tags/concorr%C3%AAncia/" rel="tag">concorrência</a>
-            </li>
-          
-            <li class="Tags-item u-background">
-              <a class="Tags-link u-clickable" href="/tags/package/errgroup/" rel="tag">package/errgroup</a>
-            </li>
-          
-        </ul>
-      
-    
-  </footer>
-
-    </article>
-    
-      <div class="Divider"></div>
-    
-  
-
-  
-
-
-
-
-      </div>
-    </div>
-  </main>
-  
-  <footer class="Footer">
-    <div class="u-wrapper">
-      <div class="u-padding">
-        Except where otherwise noted, content on this site is licensed under a &#32; <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.
-      </div>
-    </div>
-  </footer>
-
+			</div>
+		</div>
+	</div>
+	<script>feather.replace()</script>
 </body>
-
 </html>
