@@ -1,6 +1,7 @@
 ---
 title: "Sobre"
 type: "page"
+aliases: ['/about/']
 ---
 
 ### Logo
