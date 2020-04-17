@@ -8,17 +8,17 @@
   </url>
   
   <url>
+    <loc>https://gopher.tips/episodios/</loc>
+    <lastmod>2020-04-13T22:05:13+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gopher.tips/</loc>
     <lastmod>2020-04-13T22:05:13+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gopher.tips/posts/goroutine-limit/</loc>
-    <lastmod>2020-04-13T22:05:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gopher.tips/posts/</loc>
+    <loc>https://gopher.tips/episodios/limites-em-goroutines/</loc>
     <lastmod>2020-04-13T22:05:13+01:00</lastmod>
   </url>
   
@@ -28,7 +28,7 @@
   </url>
   
   <url>
-    <loc>https://gopher.tips/posts/errgroup/</loc>
+    <loc>https://gopher.tips/episodios/errgroup/</loc>
     <lastmod>2020-04-09T16:39:13+01:00</lastmod>
   </url>
   
@@ -37,7 +37,7 @@
   </url>
   
   <url>
-    <loc>https://gopher.tips/about/</loc>
+    <loc>https://gopher.tips/sobre/</loc>
   </url>
   
 </urlset>

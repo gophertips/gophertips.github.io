@@ -12,10 +12,10 @@
     
     <item>
       <title>Errgroup</title>
-      <link>https://gopher.tips/posts/errgroup/</link>
+      <link>https://gopher.tips/episodios/errgroup/</link>
       <pubDate>Thu, 09 Apr 2020 16:39:13 +0100</pubDate>
       
-      <guid>https://gopher.tips/posts/errgroup/</guid>
+      <guid>https://gopher.tips/episodios/errgroup/</guid>
       <description>errgroup é um pacote criado pelo Google que facilita o gerênciamento de goroutines. Provê sincronização, propagação de erro e cancelamento automático de contexto.
   O código exibido no vídeo pode ser encontrando no GitHub.</description>
     </item>
