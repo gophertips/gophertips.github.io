@@ -1,20 +1,43 @@
 baseURL      = "https://gopher.tips"
 languageCode = "pt-br"
 title        = "Gopher Tips"
-theme        = "hugo-flex"
+theme        = "ink"
+paginate     = 20
 
-[menu]
-  [[menu.nav]]
-  name   = "Posts"
-  url    = "posts/"
-  weight = 1
+pygmentsstyle                 = "vs"
+pygmentscodefences            = true
+pygmentscodefencesguesssyntax = true
 
-  [[menu.nav]]
-  name   = "Tags"
-  url    = "tags/"
-  weight = 2
+[params]
+subtitle           = "Go screencasts"
+avatar             = "/images/logo.png"
+featherIconsCDN    = true
+mode               = "light"
 
-  [[menu.nav]]
-  name   = "RSS"
-  url    = "index.xml"
-  weight = 3
+[[menu.main]]
+name = "Início"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name   = "Episódios"
+url    = "/posts"
+weight = 2
+
+[[menu.main]]
+name   = "Sobre"
+url    = "/about"
+weight = 3
+
+[[menu.main]]
+name   = "Tags"
+url    = "/tags"
+weight = 4
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url  = "https://github.com/gophertips/gophertips.github.io"
+
+[taxonomies]
+tag = "tags"
